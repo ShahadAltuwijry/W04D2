@@ -1,0 +1,19 @@
+.toDoDiv {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+  text-align: left;
+}
